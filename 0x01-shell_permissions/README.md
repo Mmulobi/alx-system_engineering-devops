@@ -1,1 +1,1 @@
-how to print effective usernames
+how to print all groups in the current user
