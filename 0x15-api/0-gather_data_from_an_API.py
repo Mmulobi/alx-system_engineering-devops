@@ -30,5 +30,5 @@ def display():
         print("\t {}".format(task))
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     display()
