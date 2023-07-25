@@ -16,6 +16,7 @@ def display():
     TOTAL_NUM_OF_TASKS = 0
     NUMBER_OF_DONE_TASKS = 0
     TASK_TITLE = []
+
     todos = requests.get("http://jsonplaceholder.typicode.com/todos")
     for t in todos.json():
         if t.get('userId') == int(argv[1]):
