@@ -28,3 +28,7 @@ def display():
                                                           TOTAL_NUM_OF_TASKS))
     for task in TASK_TITLE:
         print("\t {}".format(task))
+
+
+if __name__=="__main__":
+    display()
